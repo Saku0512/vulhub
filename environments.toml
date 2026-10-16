@@ -832,6 +832,14 @@ dockerfile = {"vulhub/glassfish:4.1" = "base/glassfish/4.1"}
 tags = ["Path Traversal", "Webserver"]
 
 [[environment]]
+name = "go-git Reference Name Path Traversal"
+cve = ["CVE-2026-71557"]
+app = "go-git"
+path = "go-git/CVE-2026-71557"
+dockerfile = {"vulhub/go-git:5.19.1" = "base/go-git/5.19.1"}
+tags = ["Path Traversal"]
+
+[[environment]]
 name = "GoAhead Web Server Environment Variables Injection and `LD_PRELOAD` Remote Code Execution"
 cve = ["CVE-2017-17562"]
 app = "GoAhead"
