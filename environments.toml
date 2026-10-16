@@ -296,6 +296,14 @@ dockerfile = {"vulhub/comfyui:3.39.1-with-manager" = "base/comfyui/with-manager/
 tags = ["RCE", "LLM"]
 
 [[environment]]
+name = "Composer Perforce Argument Command Injection"
+cve = ["CVE-2026-40176"]
+app = "Composer"
+path = "composer/CVE-2026-40176"
+dockerfile = {"vulhub/composer:2.9.5-perforce" = "base/composer/2.9.5-perforce"}
+tags = ["RCE"]
+
+[[environment]]
 name = "Composer Malicious Perforce URL Command Injection"
 cve = ["CVE-2026-84361"]
 app = "Composer"
