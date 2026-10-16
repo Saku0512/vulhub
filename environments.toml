@@ -1592,6 +1592,14 @@ dockerfile = {"vulhub/ntopng:4.2" = "base/ntopng/4.2"}
 tags = ["Auth Bypass"]
 
 [[environment]]
+name = "Nuxt Chrome DevTools Workspace Information Disclosure"
+cve = ["CVE-2026-72744"]
+app = "Nuxt"
+path = "nuxt/CVE-2026-72744"
+dockerfile = {"vulhub/nuxt:4.5.0" = "base/nuxt/4.5.0"}
+tags = ["Info Disclosure"]
+
+[[environment]]
 name = "Apache OfBiz Deserialization Command Execution"
 cve = ["CVE-2020-9496"]
 app = "Apache OFBiz"
