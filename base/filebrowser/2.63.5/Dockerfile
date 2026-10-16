@@ -1,4 +1,4 @@
-FROM filebrowser/filebrowser:v2.63.5
+FROM filebrowser/filebrowser:v2.63.5@sha256:aefb0c20de10ef8b617995ca5522479ad40d41e6386bd01946a345c6026ff31c
 
 LABEL maintainer="phithon <root@leavesongs.com>"
 

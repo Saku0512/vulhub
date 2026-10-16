@@ -684,7 +684,7 @@ name = "File Browser Hook Authentication Pre-Auth Command Injection"
 cve = ["CVE-2026-54088"]
 app = "File Browser"
 path = "filebrowser/CVE-2026-54088"
-dockerfile = {"vulhub/filebrowser:2.63.5" = "base/filebrowser/2.63.5"}
+dockerfile = {"vulhub/filebrowser:2.63.5" = "base/filebrowser/2.63.5", "vulhub/filebrowser:2.63.6" = "base/filebrowser/2.63.6"}
 tags = ["RCE"]
 
 [[environment]]
