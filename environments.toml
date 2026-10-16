@@ -300,7 +300,7 @@ name = "Composer Perforce Argument Command Injection"
 cve = ["CVE-2026-40176"]
 app = "Composer"
 path = "composer/CVE-2026-40176"
-dockerfile = {"vulhub/composer:2.9.5-perforce" = "base/composer/2.9.5-perforce"}
+dockerfile = {"vulhub/composer:2.9.5-perforce" = "base/composer/2.9.5-perforce", "vulhub/composer:2.9.6-perforce" = "base/composer/2.9.6-perforce"}
 tags = ["RCE"]
 
 [[environment]]
