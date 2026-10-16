@@ -1252,7 +1252,7 @@ name = "Keycloak Case-Insensitive URI Validation Bypass XSS"
 cve = ["CVE-2026-9086"]
 app = "Keycloak"
 path = "keycloak/CVE-2026-9086"
-dockerfile = {"vulhub/keycloak:26.6.3" = "base/keycloak/26.6.3"}
+dockerfile = {"vulhub/keycloak:26.6.3" = "base/keycloak/26.6.3", "vulhub/keycloak:26.6.4" = "base/keycloak/26.6.4"}
 tags = ["XSS"]
 
 [[environment]]
