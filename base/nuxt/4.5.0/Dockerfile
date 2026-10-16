@@ -1,4 +1,4 @@
-FROM node:22-alpine
+FROM node:22-alpine@sha256:0a7108bf6c7bf5de370ffb1a3ed6be93d405b43ff159f681a8d18c0e2bc2e402
 
 LABEL maintainer="phithon <root@leavesongs.com>"
 
@@ -11,7 +11,7 @@ RUN corepack enable \
 
 COPY app.vue nuxt.config.ts ./
 
-EXPOSE 3000
+EXPOSE 80
 
-CMD ["npx", "nuxt", "dev", "--host", "0.0.0.0", "--port", "3000"]
+CMD ["npx", "nuxt", "dev", "--host", "0.0.0.0", "--port", "80"]
 

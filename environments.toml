@@ -1604,7 +1604,7 @@ name = "Nuxt Chrome DevTools Workspace Information Disclosure"
 cve = ["CVE-2026-72744"]
 app = "Nuxt"
 path = "nuxt/CVE-2026-72744"
-dockerfile = {"vulhub/nuxt:4.5.0" = "base/nuxt/4.5.0"}
+dockerfile = {"vulhub/nuxt:4.5.0" = "base/nuxt/4.5.0", "vulhub/nuxt:4.5.1" = "base/nuxt/4.5.1"}
 tags = ["Info Disclosure"]
 
 [[environment]]
