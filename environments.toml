@@ -852,7 +852,7 @@ name = "go-git Reference Name Path Traversal"
 cve = ["CVE-2026-71557"]
 app = "go-git"
 path = "go-git/CVE-2026-71557"
-dockerfile = {"vulhub/go-git:5.19.1" = "base/go-git/5.19.1"}
+dockerfile = {"vulhub/go-git:5.19.1" = "base/go-git/5.19.1", "vulhub/go-git:5.19.2" = "base/go-git/5.19.2"}
 tags = ["Path Traversal"]
 
 [[environment]]
