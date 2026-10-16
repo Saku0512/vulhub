@@ -296,6 +296,14 @@ dockerfile = {"vulhub/comfyui:3.39.1-with-manager" = "base/comfyui/with-manager/
 tags = ["RCE", "LLM"]
 
 [[environment]]
+name = "Composer Malicious Perforce URL Command Injection"
+cve = ["CVE-2026-84361"]
+app = "Composer"
+path = "composer/CVE-2026-84361"
+dockerfile = {"vulhub/composer:2.10.2-perforce" = "base/composer/2.10.2-perforce"}
+tags = ["RCE"]
+
+[[environment]]
 name = "Atlassian Confluence Path Traversal Leads to RCE"
 cve = ["CVE-2019-3396"]
 app = "Confluence"
