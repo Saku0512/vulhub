@@ -1,6 +1,6 @@
-FROM composer:2.10.2 AS composer
+FROM composer:2.10.2@sha256:d020706319701a44468968321dccd0fce6620190159a7a9ec195d78e6e971c71 AS composer
 
-FROM php:8.3-cli-bookworm
+FROM php:8.3-cli-bookworm@sha256:c24b55afdf860c874b9ec6267ced132ff52de97d308ab08e6cf41e8596e509f7
 
 LABEL maintainer="phithon <root@leavesongs.com>"
 

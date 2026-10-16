@@ -308,7 +308,7 @@ name = "Composer Malicious Perforce URL Command Injection"
 cve = ["CVE-2026-84361"]
 app = "Composer"
 path = "composer/CVE-2026-84361"
-dockerfile = {"vulhub/composer:2.10.2-perforce" = "base/composer/2.10.2-perforce"}
+dockerfile = {"vulhub/composer:2.10.2-perforce" = "base/composer/2.10.2-perforce", "vulhub/composer:2.10.3-perforce" = "base/composer/2.10.3-perforce"}
 tags = ["RCE"]
 
 [[environment]]
