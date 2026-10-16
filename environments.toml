@@ -844,7 +844,7 @@ name = "go-chi RealIP IP Spoofing"
 cve = ["CVE-2026-72815"]
 app = "go-chi"
 path = "go-chi/CVE-2026-72815"
-dockerfile = {"vulhub/go-chi:5.2.1" = "base/go-chi/5.2.1"}
+dockerfile = {"vulhub/go-chi:5.2.1" = "base/go-chi/5.2.1", "vulhub/go-chi:5.3.0" = "base/go-chi/5.3.0"}
 tags = ["Auth Bypass"]
 
 [[environment]]
