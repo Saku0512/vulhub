@@ -1232,6 +1232,14 @@ dockerfile = {"vulhub/jupyter-notebook:5.2.2" = "base/jupyter-notebook/5.2.2"}
 tags = ["Auth Bypass"]
 
 [[environment]]
+name = "Keycloak Case-Insensitive URI Validation Bypass XSS"
+cve = ["CVE-2026-9086"]
+app = "Keycloak"
+path = "keycloak/CVE-2026-9086"
+dockerfile = {"vulhub/keycloak:26.6.3" = "base/keycloak/26.6.3"}
+tags = ["XSS"]
+
+[[environment]]
 name = "Apache Kafka Clients JNDI Injection"
 cve = ["CVE-2023-25194"]
 app = "Apache Kafka"
