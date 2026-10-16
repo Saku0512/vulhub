@@ -840,6 +840,14 @@ dockerfile = {"vulhub/glassfish:4.1" = "base/glassfish/4.1"}
 tags = ["Path Traversal", "Webserver"]
 
 [[environment]]
+name = "go-chi RealIP IP Spoofing"
+cve = ["CVE-2026-72815"]
+app = "go-chi"
+path = "go-chi/CVE-2026-72815"
+dockerfile = {"vulhub/go-chi:5.2.1" = "base/go-chi/5.2.1"}
+tags = ["Auth Bypass"]
+
+[[environment]]
 name = "go-git Reference Name Path Traversal"
 cve = ["CVE-2026-71557"]
 app = "go-git"
