@@ -2568,6 +2568,14 @@ dockerfile = {"vulhub/vite:7.3.1" = "base/vite/7.3.1"}
 tags = ["Path Traversal"]
 
 [[environment]]
+name = "Warp DCS Lifecycle Hook Spoofing"
+cve = ["CVE-2026-54686"]
+app = "Warp"
+path = "warp/CVE-2026-54686"
+dockerfile = {"vulhub/warp:cve-2026-54686" = "base/warp/CVE-2026-54686"}
+tags = ["Other"]
+
+[[environment]]
 name = "WebLogic < 10.3.6 'wls-wsat' XMLDecoder Deserialization Remote Command Execution"
 cve = ["CVE-2017-10271"]
 app = "WebLogic"
