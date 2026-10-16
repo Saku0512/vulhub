@@ -2408,6 +2408,14 @@ dockerfile = {"vulhub/teamcity:2023.11.3" = "base/teamcity/2023.11.3"}
 tags = ["Auth Bypass", "RCE"]
 
 [[environment]]
+name = "Traefik Kubernetes Gateway Authorization Bypass"
+cve = ["CVE-2026-54761"]
+app = "Traefik"
+path = "traefik/CVE-2026-54761"
+dockerfile = {"vulhub/traefik:3.7.1-kind" = "base/traefik/3.7.1-kind"}
+tags = ["Auth Bypass", "Info Disclosure"]
+
+[[environment]]
 name = "ThinkPHP 2.x Remote Code Execution"
 cve = []
 app = "ThinkPHP"
